@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Company</th>
+    <th>Service</th>
+    <th>Budget</th>
+    <th>Message</th>
+
+  </tr>
+  <tr>
+    <td><?= dataObj.name ?></td>
+         <td><?= dataObj.email ?></td>
+             <td><?= dataObj.company ?></td>
+                 <td><?= dataObj.help ?></td>
+                     <td><?= dataObj.budget ?></td>
+                      <td><?= dataObj.message ?></td>
+  </tr>
+  
+</table>
+
+</body>
+</html>
